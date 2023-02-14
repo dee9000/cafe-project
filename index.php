@@ -189,7 +189,7 @@
                    <!-- Button trigger modal -->
                    <div class="text-center ingridients_api">
                    <button type="button" class="btn btn-hows_it_made" data-toggle="modal" data-target="#exampleModal">
-                  How's it made!
+                  How's it made?
                   </button>
                   </div>
                   <!-- Modal -->
