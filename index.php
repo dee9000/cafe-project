@@ -203,20 +203,27 @@
                         </button>
                         </div>
                         <div class="modal-body">
-                        <div class="form-group">
-                  <select class="form-control" id="cocoa" name="cocoa" onchange="myFunction()">
-                  <option>Types</option>
-                  <option>Black</option>
-                  <option>Latte</option>
-                  <option>Cappuccino</option>
-                  <option>Americano</option>
-                  <option>Espresso</option>
-                  <option>Macchiato</option>
-                  <option>Mocha</option>
-                  <option>Flat White</option>
-                  </select>
-                  </div>
-                        ...
+                        <form class="form-group" id="form"> <!--changed from div to form-->
+                           <select class="form-control" id="title" name="cocoa">
+                           <option>Types</option>
+                           <option>Black</option>
+                           <option>Latte</option>
+                           <option>Cappuccino</option>
+                           <option>Americano</option>
+                           <option>Espresso</option>
+                           <option>Macchiato</option>
+                           <option>Mocha</option>
+                           <option>Flat White</option>
+                           </select>
+                        </form>
+                        <div>
+                           <img src="" alt="" id="image">
+                           <span id="title"></span>
+                           <ul id="list" class="container">
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, facere aliquam dignissimos accusantium ipsum nesciunt autem labore voluptatibus quae minima laudantium cumque dicta impedit doloremque magnam neque excepturi eius pariatur.
+                           </ul>
+
+                        </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
