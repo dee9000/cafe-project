@@ -27,15 +27,15 @@ if(!$terms){
 }
 
 //link to the database credentials
-$host = "localhost"; //webserver
-$dbname = "spa_cafe_feedback"; //name of dbase
-$username = "spa";// we connect using the root account on the dbase when dev locally
-$password = "";
+$host = "shared09.uk-noc.com:3306"; //webserver
+$dbname = "dotunpat_spa_cafe_feedback"; //name of dbase
+$username = "dotunpat_spa";// we connect using the root account on the dbase when dev locally
+$password = "lemurianstar1$";
 
 
 
 //connection to the database several methods none of these worked for me
-//mysqli_connect($host, $dbase, $username, $password); //ideally should be in this order or else use method below
+//$conn = mysqli_connect($host, $dbname, $username, $password); //ideally should be in this order or else use method below
 /*$conn = mysqli_connect(hostname: $host,
                        username: $username,
                        database: $dbase
@@ -43,7 +43,7 @@ $password = "";
 
 
 //CONNECTION TO DBASE only this worked
-$conn = mysqli_connect("localhost", "spa", "", "spa_cafe_feedback");
+$conn = mysqli_connect("shared09.uk-noc.com:3306", "dotunpat_spa", "lemurianstar1$", "dotunpat_spa_cafe_feedback");
 
 
 

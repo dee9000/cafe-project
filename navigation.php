@@ -39,37 +39,32 @@
       <link href="style.css" rel="stylesheet">
    </head>
    <body>
-
-<div class="jumbotron jumbotron-register">
-  <div class="register-header text-center">
-  <a href="index.php"><img src="img/logo2.png" height="120" width="120" alt="logo" class="animate__animated animate__rotateIn"></a>
-  <h1>Register</h1>
-  </div>
-  <form action="process-signup.php" method="POST" novalidate >
-<div class="form-group">
-  <label for="name" class="control-label">Name</label>
-  <input type="text" class="form-control" id="name" name="name">
-</div>
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email">
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" class="form-control" id="password" name="password">
-  </div>
-  <div class="form-group">
-    <label for="password_confirmation">Repeat Password</label>
-    <input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
-  </div>
-
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-    </div>
-
-
-
-
-
-   </body>
+      <nav class="navbar  navbar-dark mb-4 container animate__animated animate__fadeInDown">
+         <a href="index.php"><img src="img/logo2.png" height="70" width="70" alt="logo" class="animate__animated animate__rotateIn"></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="#">About-Us</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">What</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">About Autism</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Food & Drinks</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link">Contact us</a>
+               </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+         </div>
+      </nav>

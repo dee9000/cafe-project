@@ -520,10 +520,29 @@ body {
 
 
 /*FEEDBACK*/
+.jumbotron-admin{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border-radius:17px;
+  background-color: #FEBE93;
+}
+.jumbotron-admin h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #3E5B54;
+}
+.jumbotron-admin-content{
+  background-color: #F9F9F9;
+  width: 90%;
+  height: auto;
+  margin: 2em auto;
+}
 
 /*register*/
 .jumbotron-register{
-  margin:5em 30em 5em 30em;
+  width: 30%;
+  height: auto;
+  margin: auto;
   border-radius:17px;
   background-color: #FEBE93;
 }

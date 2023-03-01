@@ -2,7 +2,7 @@
 let form, list, image, span
 window.addEventListener('load', ()=>{
     form = document.querySelector("#form")
-    list = document.querySelector("#list")
+    cocoa = document.querySelector("#cocoa")
     image = document.querySelector("#image")
     span = document.querySelector("#title")
 
