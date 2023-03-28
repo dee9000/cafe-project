@@ -137,16 +137,9 @@
                         </div>
                         <div class="modal-body">
                         <form class="form-group" id="form"> <!--changed from div to form-->
-                           <select class="form-control" id="title" name="cocoa">
-                           <option>Types</option>
-                           <option>Black</option>
-                           <option>Latte</option>
-                           <option>Cappuccino</option>
-                           <option>Americano</option>
-                           <option>Espresso</option>
-                           <option>Macchiato</option>
-                           <option>Mocha</option>
-                           <option>Flat White</option>
+                           <select class="form-control" id="drinks" name="drinks">
+                          
+                         
                            </select>
                         </form>
                         <div>
@@ -357,7 +350,7 @@
             </div>
          </footer>
       </div>
-      <script src="javascript/main.js"></script>
+      <script src="javascript/app2.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
